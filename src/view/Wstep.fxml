@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.EnterWindowController" stylesheets="@Styles.css">
+   <children>
+      <Label alignment="CENTER" layoutX="171.0" layoutY="73.0" prefHeight="38.0" prefWidth="168.0" text="26.01.2020">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="129.0" layoutY="35.0" prefHeight="38.0" prefWidth="242.0" text="Michal Sidorow" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="171.0" layoutY="111.0" prefHeight="38.0" prefWidth="168.0" text="v 0.1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="171.0" layoutY="149.0" prefHeight="38.0" prefWidth="168.0" text="Projekt Przejsciowy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="181.0" prefHeight="38.0" prefWidth="361.0" text="Program służący wyszukiwaniu wyrazów poprzez">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="219.0" prefHeight="38.0" prefWidth="361.0" text="uzycie filtra zawartym w polu tekstowym ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="257.0" prefHeight="38.0" prefWidth="361.0" text="z mozliwoscią zapisu nowych hasel przez okno">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="295.0" prefHeight="38.0" prefWidth="361.0" text="uruchamiajace sie po wcisnieciu przycisku dodaj">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonDalej" layoutX="205.0" layoutY="333.0" mnemonicParsing="false" onAction="#dalej" prefHeight="38.0" prefWidth="90.0" text="Dalej" />
+   </children>
+</AnchorPane>

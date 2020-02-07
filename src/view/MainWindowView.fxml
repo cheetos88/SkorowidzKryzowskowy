@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <TableView fx:id="tabela" layoutX="300.0" layoutY="48.0" prefHeight="300.0" prefWidth="700.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="25.0">
+        <columns>
+<!--          <TableColumn fx:id="columnId" prefWidth="75.0" text="Id" />-->
+          <TableColumn fx:id="columnHaslo" prefWidth="200.0" text="Hasło" />
+            <TableColumn fx:id="columnOpis" prefWidth="400.0" text="Opis" />
+            <TableColumn fx:id="columnDlugosc" prefWidth="100.0" text="Dlugosc" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textFiltruj" layoutX="312.0" layoutY="350.0" onAction="#filtruj" prefHeight="36.0" prefWidth="176.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="312.0" layoutY="325.0" prefHeight="27.0" prefWidth="176.0" text="Szukana fraza">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonClear" layoutX="344.0" layoutY="427.0" mnemonicParsing="false" onAction="#wyczysc" prefHeight="50.0" prefWidth="111.0" text="Wyczysc" />
+      <Button fx:id="buttonDodaj" layoutX="50.0" layoutY="429.0" mnemonicParsing="false" onAction="#dodaj" prefHeight="50.0" prefWidth="92.0" text="Dodaj" />
+      <Button fx:id="buttonKoniec" layoutX="648.0" layoutY="427.0" mnemonicParsing="false" onAction="#koniec" prefHeight="50.0" prefWidth="102.0" text="Koniec" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdditionWindowController"
+   stylesheets="@Styles.css">
+   <children>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="46.0" prefHeight="45.0" prefWidth="43.0" text="Haslo" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0" />
+      <Label alignment="CENTER" layoutX="50.0" layoutY="95.0" prefHeight="33.0" prefWidth="43.0" text="Opis" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0" />
+      <TextField fx:id="textHaslo" alignment="CENTER" layoutX="151.0" layoutY="60.0" prefHeight="25.0" prefWidth="181.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="60.0" />
+      <Button fx:id="buttonDodaj" layoutX="196.0" layoutY="253.0" mnemonicParsing="false" onAction="#dodaj" prefHeight="57.0" prefWidth="89.0" text="Dodaj" />
+      <TextArea fx:id="textOpis" layoutX="150.0" layoutY="95.0" prefHeight="128.0" prefWidth="181.0" />
+   </children>
+</AnchorPane>
